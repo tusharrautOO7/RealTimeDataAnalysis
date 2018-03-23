@@ -68,5 +68,5 @@ if __name__ == '__main__':
     # create instance of the tweepy stream
     stream = Stream(auth, listener)
     print "Streaming started..."
-    # search twitter for "congress" keyword
+    # search twitter for "modi" keyword
     stream.filter(track=['modi'])
